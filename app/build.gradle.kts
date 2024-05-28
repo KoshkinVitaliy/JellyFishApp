@@ -53,6 +53,7 @@ android {
 dependencies {
     implementation(libs.androidx.room)
     ksp(libs.androidx.room.ksp)
+    implementation(libs.androidx.viewmodel.compose)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
